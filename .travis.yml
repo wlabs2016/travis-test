@@ -6,5 +6,3 @@ rvm:
  -- "2.7"
 install:
 - ./Travis/install.sh
-script:
-- ./Travis/integrationTests.sh

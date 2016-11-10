@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode61
+rvm:
+- 2.1.2
+-python:
+ -- "2.7"
+install:
+- ./Travis/install.sh
+script:
+- ./Travis/integrationTests.sh
